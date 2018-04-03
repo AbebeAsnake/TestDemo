@@ -16,7 +16,7 @@ public class Subscription {
      */
     public double pricePerMonth() {
         double r = (double) price / (double) length ;
-        return r ;
+        return Math.round(r) ;
     }
 
     /**
